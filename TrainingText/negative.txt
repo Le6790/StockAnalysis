@@ -6,7 +6,7 @@ Wednesday's decline was equal to around 7.9%, the Dow's biggest one-day percenta
 tandard & Poor's 500 (SPX) index lost 90 points, its second-worst one-day point loss ever, also second only to Sept. 29. The loss was equal to 9%, its second biggest slide on a percentage basis since Oct. 19, 1987, a.k.a. Black Monday.
 The Nasdaq composite (COMP) lost 8.5% and closed at a new low for 2008, its worst level since June 30, 2003. The decline of 8.5% was its biggest one-day percentage loss since Aug. 31, 1998. On a point basis, it didn't rate among the 20 worst days.
 The decline Wednesday equaled a loss of $1.1 trillion in market value, as measured by the Dow Jones Wilshire 5000, the broadest measure of the stock market. It was the second-biggest one-day loss ever, following Sept. 29.
-"It's stunning," said Donald Selkin, chief market strategist at National Securities. He said Wednesday's selloff was an accumulation of all the negatives that are overlapping.
+"It's stunning," said  He said Wednesday's selloff was an accumulation of all the negatives that are overlapping.
 "The poor economic reality is being reflected in the market," he said.
 The day's news included retail sales at a 3-year low, a reading on manufacturing in the New York area at an all-time low, the Fed's weak forecast and comments from Bernanke.
 "The economy is the issue right now," said Timothy Ghriskey, chief investment officer at Solaris Asset Management. "It was clear in Bernanke's speech today, in the retail sales report and in the stock market reaction."
@@ -59,9 +59,9 @@ Though obsrvers said S&P's downgrade shouldn't matter all that much, the market 
 "Investors are having one reaction to the downgrade: sell first and ask questions later," said Paul Zemsky, head of asset allocation with ING Investment Management.
 Even if investors dismissed the downgrade, they'd still have to contend with the European debt crisis and rising fears of a new U.S. recession.
 Those are the factors that led to a drop of more than 6% last week, the worst since the financial crisis of 2008.
-The Dow Jones industrial average (INDU) sank 635 points, or 5.6%, to 10,810.
+The  sank 635 points, or 5.6%, to 10,810.
 The S&P 500 (SPX) lost 80 points, or 6.7%, to 1,120. 
-And the Nasdaq Composite (COMP) dropped 175 points, or 6.9%, to 2,358.
+And the  dropped 175 points, or 6.9%, to 2,358.
 The sell-off was worse than the 512-point drop stocks experienced only three trading sessions ago.
 Few companies were spared. All members of the Dow 30 and all members of the S&P 500 traded lower.
 Financial stocks were among the hardest hit, with Bank of America (BAC, Fortune 500) plunging 20%, and Citigroup (C, Fortune 500) and Morgan Stanley (MS, Fortune 500) dropped roughly 15%.
@@ -80,3 +80,13 @@ European debt crisis: The European Central Bank signaled in a statement Sunday t
 In a separate announcement, finance ministers from the G-7 -- a group of significant world economies -- pledged support for troubled countries.
 Though the ECB's support relieved some concerns about Europe's ongoing debt crisis, the uncertainty of the aftermath of S&P's downgrade overwhelmed any investor optimism.
 "The [ECB's] steps and direction are right but investors are questioning whether officials will be able to do the breadth and depth of assistance needed," said Mike Pond, co-head of interest rate strategy with Barclays Capital.
+Dow falls in wild session as Wall Street fails to recover from sharp losses
+The overhanging issue in this market has been China
+Stocks have been volatile recently as investors grapple with lingering trade fears, worries about rising interest rates and the possibility of a global economic slowdown. The Cboe Volatility index, widely considered the best fear gauge in the market, is up more than 67 percent this quarter.
+I do see more volatility as we head into year-end
+Elsewhere, oil prices fell more than 7 percent Tuesday to extend their losing streak to 12 straight sessions. Oil's decline on Tuesday came after Trump said he hoped OPEC would not cut oil production in order to lift prices.
+Then the market turned south again.
+fell a little less than 1%  and 5%  after suppliers cut their earnings and sales forecasts because of weak demand. JPMorgan cut its target price on Apple's stock and Goldman Sachs slashed its iPhone sales forecast. 
+That's all led to another volatile week on Wall Street.
+A stronger dollar can hurt sales of multinational companies, making goods relatively more expensive to customers purchasing abroad. Meanwhile, the bond market was closed
+also delivered a hefty 112-point blow to the Dow, and weighed on the broader market.

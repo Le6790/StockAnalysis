@@ -4,12 +4,12 @@ import math
 
 #Kent Le cs4320 Stock Analysis Project
 #adaptation of Douglas Galarus Classify Project Comments 
-
-with open("positiveTokenized.txt", "r") as fin:
+#
+with open("TrainingText/cleaned_positive.txt", "r") as fin:
 	textPositive = fin.read()
 
 
-with open("negativeTokenized.txt", "r") as fin:
+with open("TrainingText/cleaned_negative.txt", "r") as fin:
 	textNegative = fin.read()
 
 #tokenize the lists 
@@ -25,6 +25,8 @@ cAll = cPositive + cNegative
 
 #Give the two classes equal probabilities
 def PofClass(c):
+	#print("Class probability: " + str(sum(c.values())/sum(cAll.values())))
+	#return sum(c.values())/sum(cAll.values())
 	return 0.5
 
 def PofTermGivenClass(t,c,cAll):
@@ -32,10 +34,10 @@ def PofTermGivenClass(t,c,cAll):
 
 def AssignDocumentToClass(d,c1,c2,cAll):
 	W = d.lower().split()
-	sum1 = PofClass(c1)
+	sum1 = PofClass(c1)+0.005
 	for w in W:
 		sum1 = sum1 + math.log10(PofTermGivenClass(w,c1,cAll))
-	sum2 = PofClass(c2)+.05
+	sum2 = PofClass(c2)
 	for w in W:
 		sum2 = sum2 + math.log10(PofTermGivenClass(w,c2,cAll))
 
