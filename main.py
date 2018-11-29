@@ -5,11 +5,11 @@ import math
 #Kent Le cs4320 Stock Analysis Project
 #adaptation of Douglas Galarus Classify Project Comments 
 #
-with open("TrainingText/cleaned_positive.txt", "r") as fin:
+with open("TrainingText/cleaned_positive.txt", "r", encoding="utf8") as fin:
 	textPositive = fin.read()
 
 
-with open("TrainingText/cleaned_negative.txt", "r") as fin:
+with open("TrainingText/cleaned_negative.txt", "r", encoding="utf8") as fin:
 	textNegative = fin.read()
 
 #tokenize the lists 
