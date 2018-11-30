@@ -73,7 +73,7 @@ def processData(dates):#input - list of dates
     #TODO: for date in dates...
     # 
     for date in dates: 
-        with open("Data/raw%s.csv"%(dates[0]), 'r', encoding="utf8") as csvIN: #read in each data file 
+        with open("Data/raw%s.csv"%(date), 'r', encoding="utf8") as csvIN: #read in each data file 
             text = csv.reader(csvIN, delimiter=',')
 
             aHeading = []
