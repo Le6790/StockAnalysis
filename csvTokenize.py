@@ -68,6 +68,10 @@ translate_table = dict((ord(char), None) for char in string.punctuation)
 #     row.append ('1')
 
 
+#processData read in the raw csv which contains both Header and Body texts
+#   filters stop words and punctuation
+#   Tokenizes the data
+#   Splits head and body into separate csv files for processing in filteredToCSV() 
 
 def processData(dates):#input - list of dates
     #TODO: for date in dates...
@@ -78,7 +82,7 @@ def processData(dates):#input - list of dates
 
             aHeading = []
             aBody = []
-
+            #filtering punctuation 
             for row in text:
                 row[0] = row[0].translate(translate_table)
                 row[0] = row[0].replace("’", "") #different character than '
@@ -113,19 +117,25 @@ def processData(dates):#input - list of dates
                 tokenizedBody.append(word_tokenize(x))
 
             #print(tokenizedHead)
-            tokenizedToCSV(tokenizedHead,date, "Head") #Change date[0]
-
+            filteredToCSV(tokenizedHead,date, "Head") #Change date[0]
+            filteredToCSV(tokenizedBody,date, "Body")
             #tokenizedBody = word_tokenize(articleBody)
 
             #write tokenized head and body to a csv file for more processing. 
 
-def tokenizedToCSV(tokenized, date, typeOf): #Input: Tokenized List, date for name entry, and typeOf(Head or Body)
+
+
+#filteredToCSV takes a list of tokens. The date in which those articles were grabbed and the typeof (Head or Body)
+# Combines the tokens back into a sentence 
+# Splits the data into a Head##-##-##.csv and Body##-##-##.csv for further processing with Naive bayes in sentimentAnalysis.py
+
+def filteredToCSV(tokenized, date, typeOf): #Input: Tokenized List, date for name entry, and typeOf(Head or Body)
 
     for token in tokenized: 
         str1 = ""
         for tok in token:
             str1+=(tok + " ")
-        print(str1)
+        #print(str1)
         
         if typeOf == "Head":
             with open("Data/Head%s.csv"%(date), 'a', encoding="utf8") as fout:
@@ -155,8 +165,9 @@ def main():
     #in main program, select the dates that I want to process. For now, instead of saving sentiment value, just save it to a dictionary
 
     
-    testDate = ["10-01-18","10-02-18"]
-    processData(testDate)
+    testDate = ["10-01-18","10-02-18","10-03-18","10-04-18","10-05-18","10-06-18","10-07-18","10-08-18","10-09-18","10-10-18"]
+    processData(testDate)   
+    print("DONE!")
 
 
 

@@ -1,6 +1,7 @@
 from newspaper import Article
 import csv
 #https://www.google.com/search?q=dow+jones+stock&num=30&tbs=cdr:1,cd_min:10/1/2018,cd_max:10/1/2018&source=lnms&tbm=nws
+#https://www.google.com/search?q=dow+jones+stock&num=5&tbs=cdr:1,cd_min:10/2/2018,cd_max:10/2/2018&source=lnms&tbm=nws
 
 url = "https://www.npr.org/2018/10/01/653430412/general-electric-stuns-wall-street-by-firing-ceo-john-flannery-after-a-year"
 
@@ -34,4 +35,4 @@ def createRawData(head,body, date):
         write = csv.writer(fout, delimiter=',',lineterminator='\n')
         write.writerow([head, body])
 
-getArticles(["10-01-18"])
+getArticles(["10-01-18","10-02-18","10-03-18","10-04-18","10-05-18","10-06-18","10-07-18","10-08-18","10-09-18","10-10-18",])
