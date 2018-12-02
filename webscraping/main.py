@@ -14,6 +14,7 @@ article.parse()
 
 def getArticles(dates):
     for date in dates:
+        print("**************%s"%date)
         with open("urls/urls%s.csv"%(date), 'r', encoding="utf8") as csvIN:
             text = csv.reader(csvIN, delimiter=',')
 
@@ -35,4 +36,7 @@ def createRawData(head,body, date):
         write = csv.writer(fout, delimiter=',',lineterminator='\n')
         write.writerow([head, body])
 
-getArticles(["10-01-18","10-02-18","10-03-18","10-04-18","10-05-18","10-06-18","10-07-18","10-08-18","10-09-18","10-10-18",])
+getArticles(["10-20-18"])
+
+#"10-20-18"
+#11,12,13,14,27"10-28-18","10-29-18"

@@ -61,6 +61,7 @@ cNegative = collections.Counter(negativeList)
 
 cAll = cPositive + cNegative
 
+
 #take the filtered head and body text data and run it through naive bayes, 
 #calculating a total sentiment value for each text sentence.
 # Average that sentiment value and store it into ____TotalSentiment.csv 
@@ -135,7 +136,7 @@ def AssignDocumentToClass(d,c1,c2,cAll):
 	sum1 = PofClass(c1)#+0.005
 	for w in W:
 		sum1 = sum1 + math.log10(PofTermGivenClass(w,c1,cAll))
-	sum2 = PofClass(c2)
+	sum2 = PofClass(c2)+0.005
 	for w in W:
 		sum2 = sum2 + math.log10(PofTermGivenClass(w,c2,cAll))
 
